@@ -28,7 +28,6 @@ services:
       MYSQL_ROOT_PASSWORD: admin-p@ssw0rd
       TZ: 'Asia/Tokyo'
     volumes:
-      # - ./mysql:/var/lib/mysql
       - mysql-volume:/var/lib/mysql
 volumes:
   mysql-volume:
